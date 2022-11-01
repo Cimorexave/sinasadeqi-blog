@@ -14,7 +14,7 @@ const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }: SidebarInterface) => {
       {/* mobile */}
       <aside
         className={
-          "sidebar sidebar-mobile lg:hidden flex h-screen w-screen absolute top-0 right-0" +
+          "sidebar sidebar-mobile lg:hidden h-screen w-screen absolute top-0 right-0" +
           sidebarIsOpen
             ? "hidden"
             : "flex"
