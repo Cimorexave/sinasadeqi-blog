@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
 //components
-import Sidebar from '../components/home/Sidebar'
+import Navbar from "../components/home/Navbar";
+import Sidebar from "../components/home/Sidebar";
 
 const Home = () => {
   return (
     <div className="home w-screen">
-        <Sidebar />
-        
+      <Navbar />
+      <Sidebar />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
